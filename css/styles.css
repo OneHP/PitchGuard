@@ -1,40 +1,29 @@
 body {
-    background: #eee;
-    text-align: center;
-    padding: 0 25px;
+   margin-top: 40px;
+   padding-top: 40px;
 }
 
-#main {
-    width: 500px;
-    margin: auto;
-    text-align: left;
-    background: white;
-    padding: 50px 60px;
-    border: solid #ddd;
-    border-width: 0 1px 1px 1px;
+.intro-container{
+	background-color: #4388CC;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #1B3280;
 }
 
-#main h1 {
-    margin-top: 0;
-    font-size: 35px;
+.intro-step{
+	background-color: white;
+	margin-left: 20px;
+	width: 210px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #1B3280;
+	text-align: center;
+	padding-top: 4px;
 }
 
-#main ul {
-    padding-left: 20px;
+.span3{
+	width: 210px;
 }
 
-#main .error {
-    border: 1px solid red;
-    background: #FDEFF0;
-    padding: 20px;
-}
-
-#main .success {
-    margin-top: 25px;
-}
-
-#main .success code {
-    font-size: 12px;
-    color: green;
-    line-height: 13px;
-}
