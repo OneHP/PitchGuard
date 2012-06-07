@@ -1,15 +1,17 @@
 body {
    margin-top: 40px;
-   padding-top: 40px;
+   padding-top: 20px;
 }
 
 .intro-container{
-	background-color: #4388CC;
+	background-image: url('../img/Grass_Texture_by_catemate.jpg');
+	background-size: 50%;
+	background-color: green;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #1B3280;
+	border-color: black;
 }
 
 .intro-step{
@@ -18,7 +20,7 @@ body {
 	width: 210px;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #1B3280;
+	border-color: black;
 	text-align: center;
 	padding-top: 4px;
 }
@@ -27,3 +29,29 @@ body {
 	width: 210px;
 }
 
+h1{
+	padding-bottom: 10px;
+}
+
+h2{
+	padding-top: 10px;
+}
+
+.btn-success{
+	margin-top: 20px;
+	width: 300px;
+	font-size: 18pt;
+}
+
+.arrow-right {
+	margin-left: -15px;
+	margin-right: -45px;
+	margin-top: 50px;
+	width: 0;
+	height: 0;
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-left: 60px solid black;
+	float: left;
+	position: relative;
+}
