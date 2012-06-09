@@ -1,6 +1,6 @@
 body {
    margin-top: 40px;
-   padding-top: 20px;
+   background-color: WhiteSmoke;
 }
 
 .intro-container{
@@ -54,4 +54,12 @@ h2{
 	border-left: 60px solid black;
 	float: left;
 	position: relative;
+}
+
+.content{
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-color: white;
 }
